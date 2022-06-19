@@ -13,7 +13,7 @@ Currently the app handles 10000 records.
 If the amount of data is more that can also be handled using service worker.  
 Each records consists of 14 columns.  
 
-# Javascript framework used in the App
+# App performance details
 The application takes 700ms to load.  
 This was calulated using chrome lighthouse plugin.  
 The load time is reduced by breaking the total data into multiple pages and showing the particular set of data at any given instance of time.  
