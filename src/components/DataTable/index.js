@@ -163,7 +163,7 @@ function DataTable() {
             </table>
           </div>
           <div className="page-limit-selector">
-            <select onChange={(e) => handlePageLimit(e)}>
+            <select onChange={(e) => handlePageLimit(e)} value={noOfPages}>
               <option value="10">Show 10</option>
               <option value="30">Show 30</option>
               <option value="50">Show 50</option>
