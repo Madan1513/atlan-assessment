@@ -8,7 +8,6 @@ On the click of the execute button the data is being displayed to the user.
 # Javascript framework used in the App
 React is used.  
 Axios is used for API call.  
-Json server used for data server which fetches the data from db.json.  
 Currently the app handles 10000 records.  
 If the amount of data is more that can also be handled using service worker.  
 Each records consists of 14 columns.  
