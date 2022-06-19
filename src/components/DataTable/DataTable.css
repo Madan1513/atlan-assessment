@@ -1,0 +1,54 @@
+.page-limit-selector {
+  margin: 30px;
+}
+#myTable,
+table td,
+table th {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+table th {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.table-wrapper {
+  height: 350px;
+  overflow: auto;
+}
+.page-number {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+  color: blue;
+}
+
+.query-section {
+  margin-bottom: 20px;
+}
+
+.query-input {
+  width: 600px;
+  height: 100px;
+}
+
+.execute-button{
+  margin-left: 10px;
+}
+
+.error-message{
+  color: red;
+  text-align: left;
+}
+
+.pre-select-query{
+  margin: 0 20px;
+  padding: 10px;
+  vertical-align: top;
+}
