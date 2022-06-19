@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <h1>Atlan Assessment</h1>
+        <h1>Query Runner</h1>
         <DataTable></DataTable>
       </div>
     </>

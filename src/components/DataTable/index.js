@@ -11,7 +11,7 @@ function DataTable() {
   const [activePage, setActivePage] = useState(1);
   const [paginationPages, setPaginationPages] = useState([1, 2, 3, 4, 5, 6, 7]);
   const [showTable, setShowTable] = useState(false);
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState("https://json-server-madan.herokuapp.com/contacts");
   const [showError, setShowError] = useState(false);
 
   const ref = useRef();
@@ -89,12 +89,12 @@ function DataTable() {
   };
 
   const queryMapper = {
-    "Display all customer": "http://localhost:3004/contacts",
-    "Display first 100 records": "http://localhost:3004/contacts?_limit=100",
+    "Display all customer": "https://json-server-madan.herokuapp.com/contacts",
+    "Display first 100 records": "https://json-server-madan.herokuapp.com/contacts?_limit=100",
     "Display all customer sort by customer name":
-      "http://localhost:3004/contacts?_sort=CustomerName&_order=asc",
+      "https://json-server-madan.herokuapp.com/contacts?_sort=CustomerName&_order=asc",
     "Display all customer which state is Illinois":
-      "http://localhost:3004/contacts?State=Illinois",
+      "https://json-server-madan.herokuapp.com/contacts?State=Illinois",
   };
 
   return (
